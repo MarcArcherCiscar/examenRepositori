@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".subactivity_pa_mostrar">
+
+    <TextView
+        android:layout_width="149dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="364dp"
+        android:text="Quieres enviar-lo?"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:layout_width="382dp"
+        android:layout_height="90dp"
+        android:text="Es van a enviar les seguents dades:"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/mostrar"
+        android:layout_width="600dp"
+        android:layout_height="240dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="93dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/enviar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="64dp"
+        android:layout_marginStart="68dp"
+        android:gravity="center"
+        android:text="Si"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="enviar"/>
+
+    <Button
+        android:id="@+id/no"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="68dp"
+        android:layout_marginStart="196dp"
+        android:gravity="center"
+        android:text="No"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

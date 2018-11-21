@@ -1,0 +1,29 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+    <string name="app_name">examen_marc</string>
+    <string name="app_titol">Enviament d\'email</string>
+    <string name="fragment_botonera_titol">Fragment Botonera</string>
+    <string name="fragment_email_titol">Fragment E-mail</string>
+
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">Preferencies</string>
+
+    <string name="pref_title_display_name">Nom</string>
+    <string name="pref_default_display_name">Manel</string>
+
+    <string name="pref_title_add_friends_to_messages">Cambiar color</string>
+    <string-array name="color">
+        <item>roig</item>
+        <item>verd</item>
+        <item>blau</item>
+        <item>blanc</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="etiqueta_si">Sí</string>
+    <string name="etiqueta_no">No</string>
+</resources>
